@@ -16,12 +16,10 @@
  */
 package org.apache.coyote.http11.filters;
 
-import java.io.ByteArrayInputStream;
-import java.io.ByteArrayOutputStream;
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.IOException;
-import java.io.OutputStream;
+import org.apache.catalina.util.IOTools;
+import org.junit.Test;
+
+import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -29,10 +27,6 @@ import java.util.zip.GZIPInputStream;
 
 import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
-import org.apache.catalina.util.IOTools;
 
 /**
  * Reproduces what current appears to be a JVM bug. Note: This test case is not

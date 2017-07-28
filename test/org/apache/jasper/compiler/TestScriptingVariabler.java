@@ -17,20 +17,18 @@
 
 package org.apache.jasper.compiler;
 
-import java.io.File;
-import java.io.IOException;
+import org.apache.catalina.startup.Tomcat;
+import org.apache.catalina.startup.TomcatBaseTest;
+import org.junit.Test;
 
 import javax.servlet.jsp.tagext.TagData;
 import javax.servlet.jsp.tagext.TagExtraInfo;
 import javax.servlet.jsp.tagext.TagSupport;
 import javax.servlet.jsp.tagext.VariableInfo;
+import java.io.File;
+import java.io.IOException;
 
 import static org.junit.Assert.assertNull;
-
-import org.junit.Test;
-
-import org.apache.catalina.startup.Tomcat;
-import org.apache.catalina.startup.TomcatBaseTest;
 
 public class TestScriptingVariabler extends TomcatBaseTest {
 

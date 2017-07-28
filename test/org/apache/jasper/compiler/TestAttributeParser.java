@@ -17,18 +17,16 @@
 
 package org.apache.jasper.compiler;
 
-import java.lang.reflect.Method;
-
-import javax.el.FunctionMapper;
-import javax.el.ValueExpression;
-
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
 import org.apache.el.ExpressionFactoryImpl;
 import org.apache.el.TesterFunctions;
 import org.apache.jasper.el.ELContextImpl;
+import org.junit.Test;
+
+import javax.el.FunctionMapper;
+import javax.el.ValueExpression;
+import java.lang.reflect.Method;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * Test the EL processing from JSP attributes. Similar tests may be found in

@@ -16,11 +16,11 @@
  */
 package org.apache.tomcat.jdbc.pool;
 
+import org.apache.tomcat.jdbc.pool.PoolProperties.InterceptorProperty;
+
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.util.Map;
-
-import org.apache.tomcat.jdbc.pool.PoolProperties.InterceptorProperty;
 
 /**
  * Abstract class that is to be extended for implementations of interceptors.

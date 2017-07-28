@@ -17,9 +17,9 @@
 
 package org.apache.tomcat.jdbc.test;
 
-import java.sql.Connection;
-
 import org.apache.tomcat.jdbc.pool.interceptor.TestInterceptor;
+
+import java.sql.Connection;
 
 public class TestInterceptorShortName extends DefaultTestCase {
 

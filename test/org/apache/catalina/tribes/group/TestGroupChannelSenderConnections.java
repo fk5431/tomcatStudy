@@ -16,6 +16,16 @@
  */
 package org.apache.catalina.tribes.group;
 
+import org.apache.catalina.startup.LoggingBaseTest;
+import org.apache.catalina.tribes.Channel;
+import org.apache.catalina.tribes.ChannelListener;
+import org.apache.catalina.tribes.ManagedChannel;
+import org.apache.catalina.tribes.Member;
+import org.apache.catalina.tribes.transport.ReplicationTransmitter;
+import org.junit.After;
+import org.junit.Before;
+import org.junit.Test;
+
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -23,17 +33,6 @@ import java.util.Random;
 import java.util.concurrent.atomic.AtomicInteger;
 
 import static org.junit.Assert.fail;
-
-import org.junit.After;
-import org.junit.Before;
-import org.junit.Test;
-
-import org.apache.catalina.startup.LoggingBaseTest;
-import org.apache.catalina.tribes.Channel;
-import org.apache.catalina.tribes.ChannelListener;
-import org.apache.catalina.tribes.ManagedChannel;
-import org.apache.catalina.tribes.Member;
-import org.apache.catalina.tribes.transport.ReplicationTransmitter;
 
 public class TestGroupChannelSenderConnections extends LoggingBaseTest {
     private static final int count = 2;

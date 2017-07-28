@@ -17,23 +17,17 @@
 
 package org.apache.el;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import org.apache.jasper.el.ELContextImpl;
+import org.junit.Test;
 
 import javax.el.ELContext;
 import javax.el.ExpressionFactory;
 import javax.el.ValueExpression;
 import javax.el.ValueReference;
+import java.util.*;
 
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
-
-import org.junit.Test;
-
-import org.apache.jasper.el.ELContextImpl;
 
 public class TestValueExpressionImpl {
 

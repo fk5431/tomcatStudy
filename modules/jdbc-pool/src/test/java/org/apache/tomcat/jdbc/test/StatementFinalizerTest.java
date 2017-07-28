@@ -17,10 +17,10 @@
 
 package org.apache.tomcat.jdbc.test;
 
+import org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer;
+
 import java.sql.Connection;
 import java.sql.Statement;
-
-import org.apache.tomcat.jdbc.pool.interceptor.StatementFinalizer;
 
 public class StatementFinalizerTest extends DefaultTestCase {
 

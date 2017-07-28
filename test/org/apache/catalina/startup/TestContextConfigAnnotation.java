@@ -25,7 +25,6 @@ import org.apache.catalina.deploy.ServletDef;
 import org.apache.catalina.deploy.WebXml;
 import org.junit.Test;
 
-import javax.servlet.*;
 import java.beans.PropertyChangeListener;
 import java.io.File;
 import java.net.URL;

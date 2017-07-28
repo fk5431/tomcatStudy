@@ -16,10 +16,6 @@
  */
 package org.apache.catalina.tribes.test;
 
-import org.junit.runner.RunWith;
-import org.junit.runners.Suite;
-import org.junit.runners.Suite.SuiteClasses;
-
 import org.apache.catalina.tribes.group.TestGroupChannelMemberArrival;
 import org.apache.catalina.tribes.group.TestGroupChannelOptionFlag;
 import org.apache.catalina.tribes.group.TestGroupChannelSenderConnections;
@@ -34,6 +30,9 @@ import org.apache.catalina.tribes.test.channel.TestDataIntegrity;
 import org.apache.catalina.tribes.test.channel.TestMulticastPackages;
 import org.apache.catalina.tribes.test.channel.TestRemoteProcessException;
 import org.apache.catalina.tribes.test.channel.TestUdpPackages;
+import org.junit.runner.RunWith;
+import org.junit.runners.Suite;
+import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(Suite.class)
 @SuiteClasses({

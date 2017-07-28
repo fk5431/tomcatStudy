@@ -16,16 +16,13 @@
  */
 package org.apache.el.lang;
 
+import org.junit.Test;
+
+import javax.el.ELException;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-import javax.el.ELException;
-
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNull;
-import static org.junit.Assert.assertTrue;
-
-import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class TestELSupport {
     @Test

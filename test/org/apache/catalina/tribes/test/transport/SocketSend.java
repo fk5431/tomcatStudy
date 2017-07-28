@@ -16,16 +16,16 @@
  */
 package org.apache.catalina.tribes.test.transport;
 
-import java.io.OutputStream;
-import java.math.BigDecimal;
-import java.net.Socket;
-import java.text.DecimalFormat;
-
 import org.apache.catalina.tribes.Channel;
 import org.apache.catalina.tribes.Member;
 import org.apache.catalina.tribes.io.ChannelData;
 import org.apache.catalina.tribes.io.XByteBuffer;
 import org.apache.catalina.tribes.membership.MemberImpl;
+
+import java.io.OutputStream;
+import java.math.BigDecimal;
+import java.net.Socket;
+import java.text.DecimalFormat;
 
 public class SocketSend {
 

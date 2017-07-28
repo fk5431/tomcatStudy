@@ -16,22 +16,20 @@
  */
 package org.apache.tomcat.util.http;
 
-import java.io.IOException;
+import org.apache.catalina.Context;
+import org.apache.catalina.startup.SimpleHttpClient;
+import org.apache.catalina.startup.Tomcat;
+import org.apache.catalina.startup.TomcatBaseTest;
+import org.junit.Test;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.Cookie;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import java.io.IOException;
 
 import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
-import org.apache.catalina.Context;
-import org.apache.catalina.startup.SimpleHttpClient;
-import org.apache.catalina.startup.Tomcat;
-import org.apache.catalina.startup.TomcatBaseTest;
 
 public class TestCookiesAllowEquals extends TomcatBaseTest {
 

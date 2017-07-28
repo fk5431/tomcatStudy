@@ -16,17 +16,16 @@
  */
 package org.apache.naming.resources;
 
-import java.io.File;
-
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
 import org.apache.catalina.core.JreMemoryLeakPreventionListener;
 import org.apache.catalina.core.StandardContext;
 import org.apache.catalina.startup.Tomcat;
 import org.apache.catalina.startup.TomcatBaseTest;
 import org.apache.tomcat.util.buf.ByteChunk;
+import org.junit.Test;
+
+import java.io.File;
+
+import static org.junit.Assert.assertEquals;
 
 public class TestWarDirContext extends TomcatBaseTest {
 

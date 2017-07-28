@@ -17,22 +17,16 @@
 package org.apache.tomcat.jdbc.pool;
 
 
+import org.apache.juli.logging.Log;
+import org.apache.juli.logging.LogFactory;
+
+import javax.management.ObjectName;
+import javax.naming.*;
+import javax.naming.spi.ObjectFactory;
+import javax.sql.DataSource;
 import java.sql.Connection;
 import java.util.Hashtable;
 import java.util.Properties;
-
-import javax.management.ObjectName;
-import javax.naming.Context;
-import javax.naming.InitialContext;
-import javax.naming.Name;
-import javax.naming.NamingException;
-import javax.naming.RefAddr;
-import javax.naming.Reference;
-import javax.naming.spi.ObjectFactory;
-import javax.sql.DataSource;
-
-import org.apache.juli.logging.Log;
-import org.apache.juli.logging.LogFactory;
 
 /**
  * <p>JNDI object factory that creates an instance of

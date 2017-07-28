@@ -23,9 +23,7 @@ import org.apache.tomcat.util.buf.ByteChunk;
 import org.junit.Test;
 
 import javax.servlet.http.HttpServletResponse;
-import java.io.*;
 import java.text.SimpleDateFormat;
-import java.util.*;
 
 import static org.apache.catalina.startup.SimpleHttpClient.CRLF;
 import static org.junit.Assert.*;

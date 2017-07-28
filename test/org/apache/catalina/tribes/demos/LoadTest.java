@@ -16,7 +16,6 @@
  */
 package org.apache.catalina.tribes.demos;
 
-import org.apache.catalina.tribes.*;
 import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
 

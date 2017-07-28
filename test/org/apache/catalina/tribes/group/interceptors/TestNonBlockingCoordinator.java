@@ -16,15 +16,14 @@
  */
 package org.apache.catalina.tribes.group.interceptors;
 
-import static org.junit.Assert.assertEquals;
-
+import org.apache.catalina.tribes.Channel;
+import org.apache.catalina.tribes.Member;
+import org.apache.catalina.tribes.group.GroupChannel;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
-import org.apache.catalina.tribes.Channel;
-import org.apache.catalina.tribes.Member;
-import org.apache.catalina.tribes.group.GroupChannel;
+import static org.junit.Assert.assertEquals;
 
 public class TestNonBlockingCoordinator {
 

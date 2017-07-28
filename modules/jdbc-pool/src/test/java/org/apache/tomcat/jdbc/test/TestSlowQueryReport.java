@@ -24,7 +24,6 @@ import javax.management.AttributeChangeNotification;
 import javax.management.Notification;
 import javax.management.NotificationListener;
 import java.lang.management.ManagementFactory;
-import java.sql.*;
 import java.util.Map;
 
 public class TestSlowQueryReport extends DefaultTestCase {

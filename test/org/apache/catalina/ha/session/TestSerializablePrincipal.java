@@ -20,7 +20,6 @@ package org.apache.catalina.ha.session;
 import org.apache.catalina.realm.GenericPrincipal;
 import org.junit.Test;
 
-import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
 

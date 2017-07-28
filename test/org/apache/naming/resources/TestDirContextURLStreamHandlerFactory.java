@@ -16,6 +16,8 @@
  */
 package org.apache.naming.resources;
 
+import org.junit.Test;
+
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.net.URLStreamHandler;
@@ -23,8 +25,6 @@ import java.net.URLStreamHandlerFactory;
 
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertNull;
-
-import org.junit.Test;
 
 public class TestDirContextURLStreamHandlerFactory {
 

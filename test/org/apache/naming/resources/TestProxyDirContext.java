@@ -16,15 +16,14 @@
  */
 package org.apache.naming.resources;
 
-import javax.naming.NameNotFoundException;
-
-import static org.junit.Assert.fail;
-
-import org.junit.Test;
-
 import org.apache.catalina.core.StandardContext;
 import org.apache.catalina.startup.Tomcat;
 import org.apache.catalina.startup.TomcatBaseTest;
+import org.junit.Test;
+
+import javax.naming.NameNotFoundException;
+
+import static org.junit.Assert.fail;
 
 /**
  * Unit test for the {@link ProxyDirContext}.

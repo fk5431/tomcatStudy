@@ -18,19 +18,11 @@
 
 package org.apache.tomcat.jdbc.pool.interceptor;
 
-import java.lang.reflect.Constructor;
-import java.lang.reflect.InvocationHandler;
-import java.lang.reflect.InvocationTargetException;
-import java.lang.reflect.Method;
-import java.lang.reflect.Proxy;
-import java.sql.CallableStatement;
-import java.sql.PreparedStatement;
-import java.sql.ResultSet;
-import java.sql.SQLException;
-import java.sql.Statement;
-
 import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
+
+import java.lang.reflect.*;
+import java.sql.*;
 
 /**
  * Implementation of <b>JdbcInterceptor</b> that proxies resultSets and statements.

@@ -16,6 +16,11 @@
  */
 package org.apache.catalina.session;
 
+import org.apache.catalina.LifecycleException;
+import org.apache.catalina.Session;
+import org.apache.catalina.core.StandardContext;
+import org.junit.Test;
+
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -23,12 +28,6 @@ import java.io.InputStream;
 import java.security.SecureRandom;
 
 import static org.junit.Assert.fail;
-
-import org.junit.Test;
-
-import org.apache.catalina.LifecycleException;
-import org.apache.catalina.Session;
-import org.apache.catalina.core.StandardContext;
 
 /**
  * Named Benchmarks so it is not automatically executed as part of the unit

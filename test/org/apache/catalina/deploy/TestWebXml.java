@@ -17,9 +17,9 @@
 
 package org.apache.catalina.deploy;
 
-import static org.junit.Assert.assertEquals;
-
 import org.junit.Test;
+
+import static org.junit.Assert.assertEquals;
 
 /**
  * Test case for {@link WebXml}.
