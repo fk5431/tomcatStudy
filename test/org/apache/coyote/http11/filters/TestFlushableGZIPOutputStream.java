@@ -19,7 +19,6 @@ package org.apache.coyote.http11.filters;
 import org.apache.catalina.util.IOTools;
 import org.junit.Test;
 
-import java.io.*;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;

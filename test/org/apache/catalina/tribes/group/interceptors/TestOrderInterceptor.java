@@ -16,7 +16,6 @@
  */
 package org.apache.catalina.tribes.group.interceptors;
 
-import org.apache.catalina.tribes.*;
 import org.apache.catalina.tribes.group.ChannelInterceptorBase;
 import org.apache.catalina.tribes.group.GroupChannel;
 import org.apache.catalina.tribes.group.InterceptorPayload;

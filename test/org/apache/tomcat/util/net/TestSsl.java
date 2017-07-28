@@ -21,9 +21,6 @@ import org.apache.catalina.startup.TomcatBaseTest;
 import org.apache.tomcat.util.buf.ByteChunk;
 import org.junit.Test;
 
-import javax.net.ssl.*;
-import java.io.*;
-
 import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 

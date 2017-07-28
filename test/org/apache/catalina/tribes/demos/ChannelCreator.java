@@ -20,7 +20,6 @@ import org.apache.catalina.tribes.Channel;
 import org.apache.catalina.tribes.ManagedChannel;
 import org.apache.catalina.tribes.Member;
 import org.apache.catalina.tribes.group.GroupChannel;
-import org.apache.catalina.tribes.group.interceptors.*;
 import org.apache.catalina.tribes.membership.McastService;
 import org.apache.catalina.tribes.membership.MemberImpl;
 import org.apache.catalina.tribes.transport.MultiPointSender;

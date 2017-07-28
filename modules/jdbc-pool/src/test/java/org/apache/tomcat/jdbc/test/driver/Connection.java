@@ -18,7 +18,6 @@ package org.apache.tomcat.jdbc.test.driver;
 
 import org.apache.tomcat.jdbc.pool.PooledConnection;
 
-import java.sql.*;
 import java.util.Map;
 import java.util.Properties;
 

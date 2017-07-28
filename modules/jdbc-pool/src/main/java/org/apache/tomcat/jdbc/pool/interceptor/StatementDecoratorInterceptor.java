@@ -21,9 +21,6 @@ package org.apache.tomcat.jdbc.pool.interceptor;
 import org.apache.juli.logging.Log;
 import org.apache.juli.logging.LogFactory;
 
-import java.lang.reflect.*;
-import java.sql.*;
-
 /**
  * Implementation of <b>JdbcInterceptor</b> that proxies resultSets and statements.
  * @author Guillermo Fernandes

@@ -25,7 +25,6 @@ import org.apache.catalina.deploy.SecurityConstraint;
 import org.apache.catalina.startup.TestTomcat.MapRealm;
 import org.apache.catalina.startup.Tomcat;
 
-import javax.net.ssl.*;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
